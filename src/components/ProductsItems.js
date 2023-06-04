@@ -17,7 +17,7 @@ const ProductsItems = ({ product }) => {
           <p className="mt-2 text-neutral-500">{product.price}</p>
           <p className="mt-2">{product.description}</p>
           <div className="flex justify-center font-bold mt-2">
-            <a className="bg-neutral-300 py-2 px-5 rounded">Order</a>
+            <button className="bg-neutral-300 py-2 px-5 rounded">Order</button>
           </div>
         </div>
       </div>
